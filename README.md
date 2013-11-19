@@ -5,9 +5,11 @@ Should be as simple as downloading the latest csab from https://drive.google.com
 Then starting up your shell making sure your in ~/Downloads or wherever you downloaded it and type:
 
 // This makes it executable
+
 sudo chmod +x csab
 
 // Moving it to the above directory
+
 sudo mv ./csab /usr/local/bin
 
 Since I’ve only installed this on my own pixel I’m hoping for feedback.
