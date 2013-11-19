@@ -8,7 +8,7 @@ Then starting up your shell making sure your in ~/Downloads or wherever you down
 
 sudo chmod +x csab
 
-// Moving it to the above directory
+// Moving it to the directory below
 
 sudo mv ./csab /usr/local/bin
 
