@@ -1,0 +1,13 @@
+title = "TOML Configuration for Crouton Start and Backup Automation"
+
+[chroots]
+
+	[chroots.1]
+	name = "cinnamon"
+	backup_location = "/home/chronos/user/Downloads/"
+	desktop = "cinnamon"
+
+	[chroots.2]
+	name = "wheezy"
+	backup_location = "/home/chronos/user/Downloads/"
+	desktop = "cinnamon"
