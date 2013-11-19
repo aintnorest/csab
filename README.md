@@ -4,11 +4,11 @@ Installation:
 Should be as simple as downloading the latest csab from https://drive.google.com/file/d/0B-k2N_tmdd_wYm9kemlhSlpxQWM/edit?usp=sharing 
 Then starting up your shell making sure your in ~/Downloads or wherever you downloaded it and type:
 
-sudo chmod +x csab
 // This makes it executable
+sudo chmod +x csab
 
-sudo mv ./csab /usr/local/bin
 // Moving it to the above directory
+sudo mv ./csab /usr/local/bin
 
 Since I’ve only installed this on my own pixel I’m hoping for feedback.
 
