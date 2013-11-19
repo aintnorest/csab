@@ -30,7 +30,7 @@ func tomlDecode(location string)(*tomlConfig) {
 
 func CreateConfig() {
 	//makes the Config File
- ConfigTomil, err := os.Create("/usr/local/bin/chrootconfig.toml")
+ ConfigTomil, err := os.Create("/home/chronos/user/Downloads/chrootconfig.toml")
  	if err != nil {
  		fmt.Println(err)
  	}
@@ -44,7 +44,7 @@ _, err = ConfigTomil.WriteString("title = \"TOML Configuration for Crouton Start
 	}
 }
 func AppendConfig() {
-	File, err := os.OpenFile("/usr/local/bin/chrootconfig.toml", os.O_RDWR|os.O_APPEND, 0660)
+	File, err := os.OpenFile("/home/chronos/user/Downloads/chrootconfig.toml", os.O_RDWR|os.O_APPEND, 0660)
 	if err == nil {
 		defer File.Close()
 	} else {
@@ -53,7 +53,7 @@ func AppendConfig() {
 	}
 	var yn bool = true
 	var config tomlConfig
-	if _, err := tparse.DecodeFile("/usr/local/bin/chrootconfig.toml", &config); err != nil {
+	if _, err := tparse.DecodeFile("/home/chronos/user/Downloads/chrootconfig.toml", &config); err != nil {
 		fmt.Println(err)
 		return
 	}
@@ -169,7 +169,7 @@ func main() {
 		}
 	}
 
-	_, errrr := os.Open("/usr/local/bin/chrootconfig.toml")
+	_, errrr := os.Open("/home/chronos/user/Downloads/chrootconfig.toml")
 	//if err == nil {
 	//	file.Close()
 	//}
@@ -179,7 +179,7 @@ func main() {
 	}
 
 	var config tomlConfig
-	if _, err := tparse.DecodeFile("/usr/local/bin/chrootconfig.toml", &config); err != nil {
+	if _, err := tparse.DecodeFile("/home/chronos/user/Downloads/chrootconfig.toml", &config); err != nil {
 		fmt.Println(err)
 		return
 	}
