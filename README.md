@@ -1,7 +1,7 @@
 CSAB stands for Crouton Start and Backup. It is a command line tool to manage, start, and auto backup chroots made with crouton.
 
 Installation:
-Should be as simple as downloading the latest csab from https://drive.google.com/file/d/0B-k2N_tmdd_wM2x6bXhxY2pGTVE/edit?usp=sharing 
+Should be as simple as downloading the latest csab from https://drive.google.com/file/d/0B-k2N_tmdd_wQmlFMUwzazdOTlU/edit?usp=sharing 
 Then starting up your shell making sure your in ~/Downloads or wherever you downloaded it and type:
 
 // This makes it executable
